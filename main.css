@@ -1,0 +1,86 @@
+body{
+    font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+h2{
+    font-weight: normal;
+    font-family: 'Comic Neue', cursive;
+}
+h3{
+    font-weight: normal;
+    font-size: 12pt;
+}
+p{
+    font-weight: lighter;
+    font-size: 90%;
+}
+
+.image {
+    position: relative;
+    text-align: right;
+    left: 10px;
+}
+.image img{
+    width: 70%;
+    height: auto;
+}
+
+.title {
+    font-size: 30pt;
+    font-family: 'Comic Neue', cursive;
+    top: 40%;
+    bottom: 50%;
+    position: absolute;
+    margin: auto;
+}
+
+#global-nav {
+    background: #fff;
+    width: 100%;
+  }
+  
+#global-nav.m_fixed {
+    left: 0;
+    position: fixed;
+    top: 0;
+    background: #000;
+}
+  
+#global-nav .inner {
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 80px 0;
+    width: 768px;
+}
+  
+.global-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.global-item {
+    border-left: 1px solid #fff;
+    width: 20%;
+}
+  
+.global-item:last-child {
+    border-right: 1px solid #fff;
+    margin-right: 0;
+}
+  
+.global-item a {
+    background: #fff;
+    color: #003a52;
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
